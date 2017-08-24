@@ -1,6 +1,6 @@
 var config = {
 	appTitle: "BrazilJS 2017",
-	description: "Alguns links relacionados a nossas atividades na conferência.",
+	description: "Marque os tópicos que deseja receber mais informações.",
 	emailLabel: "e-mail",
     progressLabel: "Carregando...",
 	actionButtonLabel: "Enviar informação",
@@ -10,9 +10,10 @@ var config = {
     emailEnding: `Keep Rocking The Free Web\nComunidade Mozilla Brasil\n`,
     emailSubject: "[Mozilla Brasil] Informações pedidas na BrazilJS 2017",
 	kpis: [
-        {id: "devtools", name: "Firefox Dev Tools"},
-		{id: "webvr", name: "WebVR"},
-        {id: "community", name: "Joining Mozilla Community"}
+        {id: "aframe", name: "A-Frame, framework de VR"},
+        {id: "webvr", name: "WebVR"},
+        {id: "nightly", name: "Firefox Nightly"},
+        {id: "community", name: "Comunidade da Mozilla Brasil"}
 		
 	],
 	successMsg: "Acabamos de te enviar uma mensagem com os tópicos escolhidos!",

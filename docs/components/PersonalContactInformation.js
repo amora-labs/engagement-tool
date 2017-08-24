@@ -40,12 +40,12 @@ var PersonalContactInformation = {
             m("section#drawer[role=region]", {class: state.drawerOpen ? "drawer-open" : "" }, [
                 m(Header),
                 m("article.content.scrollable.header", [
-                    m("h2.separator", "Personal Contact Information"),
+                    m("h2.separator", "Informações Pessoais de Contato"),
                     m("form", [
-                        this.makeInput("name", "Your Name"),
+                        this.makeInput("name", "Seu Nome"),
                         this.makeInput("email", "Email", "email"),
                         this.makeInput("site", "Website"),
-                        this.makeInput("phone", "Phone number", "tel"),
+                        this.makeInput("phone", "Número de Telefone", "tel"),
                     ]),
                     m("h2.separator", "Social Networks"),
                     m("form", [
