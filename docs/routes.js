@@ -18,7 +18,7 @@ m.route(document.body, "/loading", {
 // Check to make sure the browser supports service workers
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-        .register('/service-worker.js')
+        .register('service-worker.js')
         .then(() => {
             console.log('Service worker registered');
         })
