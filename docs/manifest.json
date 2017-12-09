@@ -4,6 +4,7 @@
   "start_url": "index.html",
   "display": "fullscreen",
   "background_color": "#401C51",
+  "theme_color": "#401C51",
   "orientation": "portrait-primary",
   "lang": "pt-BR",  
   "description": "Uma ferramenta para engajamento Amora Labs.",
