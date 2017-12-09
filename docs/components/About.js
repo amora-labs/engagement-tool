@@ -7,8 +7,7 @@ var About = {
     }, 
     aboutText: `
 # About this app
-This app was created by [Andre Alves Garzia](http://andregarzia.com) to help [Mozillians](http://mozillians.org) 
-around the world.
+This app was created by [Andre Alves Garzia](http://andregarzia.com) to help [Amora Labs](http://amoralabs.com).
 
 # Tech stack used
 It was built with:
