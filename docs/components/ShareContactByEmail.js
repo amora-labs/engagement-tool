@@ -9,29 +9,29 @@ var ShareContactByEmail = {
             data = JSON.parse(data);
             console.log("loading from storage", data);
 
-            var email = `${config.emailIntro}\n\n${data.name}\n${data.phone}\n${data.email};`;
+            var email = `${config.emailIntro}\n\n${data.name}\n${data.phone}\n${data.email}`;
             
             if (data.site) {
-               email += `\n${data.site};`
+               email += `\n${data.site}`;
             } 
 
             if (data.twitter) {
-                email += `\n${data.twitter};`
+                email += `\n${data.twitter}`;
             }
             
             if (data.github) {
-                email += `\n${data.github};`
+                email += `\n${data.github}`;
             } 
 
             if (data.mastodon) {
-                email += `\n${data.mastodon};`
+                email += `\n${data.mastodon}`;
             } 
 
             if (data.mozillians) {
-                email += `\n${data.mozillians};\n\n`
+                email += `\n${data.mozillians}`;
             } 
 
-            email += config.emailEnding;
+            email +=`\n\n${config.emailEnding}`;
 
             var to = document.querySelector("input[name=email]").value || ""
         
