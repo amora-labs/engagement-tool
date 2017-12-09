@@ -5,7 +5,7 @@
   "display": "fullscreen",
   "background_color": "#401C51",
   "lang": "pt-BR",
-  ​​"orientation": "portrait-primary",
+  "orientation": "portrait-primary",
   "description": "Uma ferramenta para engajamento Amora Labs.",
   "icons": [
     {
