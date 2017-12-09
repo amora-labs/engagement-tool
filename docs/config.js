@@ -1,20 +1,17 @@
 var config = {
-	appTitle: "BrazilJS 2017",
+	appTitle: "Amora Labs",
 	description: "Marque os tópicos que deseja receber mais informações.",
 	emailLabel: "e-mail",
     progressLabel: "Carregando...",
 	actionButtonLabel: "Enviar informação",
     goBackButtonLabel: "Voltar",
     saveButtonLabel: "Salvar",
-    emailIntro: `Oi,\n\nAqui está as informações que você pediu para a Comunidade Mozilla,`,
-    emailEnding: `Keep Rocking The Free Web\nComunidade Mozilla Brasil\n`,
-    emailSubject: "[Mozilla Brasil] Informações pedidas na BrazilJS 2017",
+    emailIntro: `Oi,\n\nAqui estão as informações que você pediu para a Amora Labs,`,
+    emailEnding: `Fora da Caixinha\nAmora Labs\n\nhttp://twitter.com/amoralabs\nhttp://fb.com/amoralabs\n`,
+    emailSubject: "[Amora Labs] Informações pedidas na Startup Weekend Social Niterói",
 	kpis: [
-        {id: "aframe", name: "A-Frame, framework de VR"},
-        {id: "webvr", name: "WebVR"},
-        {id: "nightly", name: "Firefox Nightly"},
-        {id: "community", name: "Comunidade da Mozilla Brasil"}
-		
+        {id: "contato", name: "Vamos manter contato"},
+        {id: "ferramentas", name: "Ferramentas e Metodologias"}		
 	],
 	successMsg: "Acabamos de te enviar uma mensagem com os tópicos escolhidos!",
 	errorMsg: "Deu ruim :-("

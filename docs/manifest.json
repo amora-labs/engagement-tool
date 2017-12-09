@@ -1,23 +1,16 @@
 {
-  "name": "Engagement Helper",
-  "short_name": "Engagement",
+  "name": "Engajamento",
+  "short_name": "Engajamento",
   "start_url": "/index.html",
   "display": "fullscreen",
   "background_color": "#B93C5A",
-  "lang": "en-US",
+  "lang": "pt-BR",
   ​​"orientation": "portrait-primary",
-  "description": "An engagement helper for Mozillians.",
-  "icons": [{
-    "src": "icons/icon60.png",
-    "sizes": "60x60",
-    "type": "image/png"
-  }, {
-    "src": "icons/icon128.png",
-    "sizes": "128x128",
-    "type": "image/png"
-  }, {
-    "src": "icons/icon256.png",
-    "sizes": "256x256",
+  "description": "Uma ferramenta para engajamento Amora Labs.",
+  "icons": [
+    {
+    "src": "icons/branco_512.png",
+    "sizes": "512x512",
     "type": "image/png"
   }],
   "related_applications": [{
