@@ -12,3 +12,17 @@ m.route(document.body, "/loading", {
     "/analytics": AnalyticsDashboard,
     "/about": About
 });
+
+
+
+// Check to make sure the browser supports service workers
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('/service-worker.js')
+        .then(() => {
+            console.log('Service worker registered');
+        })
+        .catch(err => {
+            console.log('Service worker registration failed: ' + err);
+        });
+}
